@@ -1,0 +1,128 @@
+.pop{
+    --background: rgb(57, 169, 0);
+    
+  }
+  h1{
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    margin-top: -400px;
+  
+  }
+  h3{
+    margin-left: 20px;
+    font-size: 22px;
+   color:#FFFFFF
+  }
+  .logo{
+    height: 70px;
+    padding-left: 690px;
+    
+  }
+  .botonsesion{
+    --color:#ffffff;
+    height: 40px;
+    border-radius: 10px;
+    background: #39A900;
+    margin: 15px;
+    font-size: 20px;
+  }
+  .botonsesion:hover{
+    --color: rgb(57, 169, 0);
+    background-color: rgb(131, 109, 109);
+    margin-right: 5px;
+  }
+
+//cuerpo   Azul = rgb(130,222,240)     verde = #39A900
+ion-content {
+    
+  
+    #otraFeha{
+
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: white;
+        border-radius: 5px; 
+
+        button{
+            margin: 10px;
+            width: 140px;
+            height: 40px;
+            font-size: 20px;
+            border-radius: 10px; 
+            color: white;
+            background-color: rgb(57, 169, 0);
+        }
+        button:hover{
+            color: rgb(57, 169, 0);
+            background-color: transparent;
+            border: 3px solid  rgb(57, 169, 0);
+        }
+
+        h4{
+            color: black;
+        }
+    }
+
+    ion-card{
+        ion-item{
+            button{
+                margin: 10px;
+                width: 100px;
+                height: 40px;
+                font-size: 15px;
+                border-radius: 10px; 
+                color: white;
+                background-color: #39A900;
+            }
+            button:hover{
+                color: rgb(57, 169, 0);
+                background-color: transparent;
+                border: 3px solid  rgb(57, 169, 0);
+            }
+        }
+    }
+    div{
+        ion-card{
+            ion-item{
+
+                button{
+                    margin: 10px;
+                    width: 100px;
+                    height: 40px;
+                    font-size: 15px;
+                    border-radius: 10px; 
+                    color: white;
+                    background-color: #39A900;
+                }
+                button:hover{
+                    color: rgb(57, 169, 0);
+                    background-color: transparent;
+                    border: 3px solid  rgb(57, 169, 0);
+                }
+            }
+        }
+    }
+}
+
+#titleX, ion-card-title, #linkCorreo {
+    text-align: center;
+}
+#titleX{
+    h2{ color: white; }
+}
+  
+#date{
+    margin-left: 40px;
+    margin-right: 40px;
+    ion-item{
+        ion-label{ margin-left: 20px; }
+        ion-select{ margin-right: 10px; }
+    }
+}
+
+#linkeding{
+    a{ color: #39A900;}
+}
+#cambiarFecha{ margin-left: 30px;}
